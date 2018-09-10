@@ -17,169 +17,171 @@
           <small>for Imperial to Metric</small>
         </h1>
       </div>
-      <div class="row row-eq-height">
-        <div class="col-md-6">
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Gallons to Liters</div>
-            <div class="panel-body">
-              <p>A little bit of a large measurement, but it still might come in handy.</p>
-            </div>
+      <div class= "container custom-bg">
+        <div class="row row-eq-height">
+          <div class="col-md-6">
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Gallons to Liters</div>
+              <div class="panel-body">
+                <p>A little bit of a large measurement, but it still might come in handy.</p>
+              </div>
 
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="gallonsform">
-                  <div class="form-group">
-                    <label for="gallons">Gallons</label>
-                    <input type="text" class="form-control" id="gallons" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="litersresult"></span></li>
-            </ul>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="gallonsform">
+                    <div class="form-group">
+                      <label for="gallons">Gallons</label>
+                      <input type="text" class="form-control" id="gallons" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="litersresult"></span></li>
+              </ul>
+            </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Cups to Millileters</div>
+              <div class="panel-body">
+                <p>Works for any liquid, regardless of density</p>
+              </div>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="cupstoml">
+                    <div class="form-group">
+                      <label for="cups">Cups</label>
+                      <input type="text" class="form-control" id="cups" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="milliletersresult"></span></li>
+              </ul>
+            </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Cups of Flour to Grams</div>
+              <div class="panel-body">
+                <p>This works for flour, but be sure to use a different conversion if you're trying to get an accurate measurement for other solids, e.g. sugar or cocoa.</p>
+              </div>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="flourcups">
+                    <div class="form-group">
+                      <label for="cupsFlour">Cups</label>
+                      <input type="text" class="form-control" id="cupsFlour" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="cupsFlourResult"></span></li>
+              </ul>
+            </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Grams of Sugar to Cups</div>
+              <div class="panel-body">
+                <p>This works for sugar, but be sure to use a different conversion if you're trying to get an accurate measurement for other solids, e.g. flour or cocoa.</p>
+              </div>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="sugarcups">
+                    <div class="form-group">
+                      <label for="cupsSugar">Cups</label>
+                      <input type="text" class="form-control" id="cupsSugar" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="cupsSugarresult"></span></li>
+              </ul>
+            </div>
           </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Cups to Millileters</div>
-            <div class="panel-body">
-              <p>Works for any liquid, regardless of density</p>
-            </div>
+          <div class = "col-md-6">
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Tablespoons of Butter to Grams</div>
+              <div class="panel-body">
+                <p>If you're making something indulgdent, a handy thing to remember is that there are 16 tablespoons in a cup!</p>
+              </div>
 
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="cupstoml">
-                  <div class="form-group">
-                    <label for="cups">Cups</label>
-                    <input type="text" class="form-control" id="cups" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="milliletersresult"></span></li>
-            </ul>
-          </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Cups of Flour to Grams</div>
-            <div class="panel-body">
-              <p>This works for flour, but be sure to use a different conversion if you're trying to get an accurate measurement for other solids, e.g. sugar or cocoa.</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id ="buttertbsp">
+                    <div class="form-group">
+                      <label for="butter">Tbsp. of Butter</label>
+                      <input type="text" class="form-control" id="butter" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="butterresult"></span></li>
+              </ul>
             </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Cups of Honey to Grams</div>
+              <div class="panel-body">
+                <p>You'll probably be using this as a smaller measurement, so be sure to enter measurements with decimals, e.g. .5 instead of 1/2.</p>
+              </div>
 
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="flourcups">
-                  <div class="form-group">
-                    <label for="cupsFlour">Cups</label>
-                    <input type="text" class="form-control" id="cupsFlour" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="cupsFlourResult"></span></li>
-            </ul>
-          </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Grams of Sugar to Cups</div>
-            <div class="panel-body">
-              <p>This works for sugar, but be sure to use a different conversion if you're trying to get an accurate measurement for other solids, e.g. flour or cocoa.</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="honeycups">
+                    <div class="form-group">
+                      <label for="honeycups">Cups of Honey</label>
+                      <input type="text" class="form-control" id="honeycups" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="honeyresult"></span></li>
+              </ul>
             </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Cups of Chocolate Chips to Grams</div>
+              <div class="panel-body">
+                <p>For when the cookies need to come out <em>just</em> right.</p>
+              </div>
 
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="sugarcups">
-                  <div class="form-group">
-                    <label for="cupsSugar">Cups</label>
-                    <input type="text" class="form-control" id="cupsSugar" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="cupsSugarresult"></span></li>
-            </ul>
-          </div>
-        </div>
-        <div class = "col-md-6">
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Tablespoons of Butter to Grams</div>
-            <div class="panel-body">
-              <p>If you're making something indulgdent, a handy thing to remember is that there are 16 tablespoons in a cup!</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="chips">
+                    <div class="form-group">
+                      <label for="chipscups">Cups of Chocolate Chips</label>
+                      <input type="text" class="form-control" id="chipscups" placeholder="2">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="chipsresult"></span></li>
+              </ul>
             </div>
+            <div class="panel panel-primary">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Convert Oven Temperatures from Fahrenheit to Celsius</div>
+              <div class="panel-body">
+                <p>Ah, a schooltime classic. This'll make sure you never have to remember the formula! You don't have to put anything other than a number.</p>
+              </div>
 
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id ="buttertbsp">
-                  <div class="form-group">
-                    <label for="butter">Tbsp. of Butter</label>
-                    <input type="text" class="form-control" id="butter" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="butterresult"></span></li>
-            </ul>
-          </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Cups of Honey to Grams</div>
-            <div class="panel-body">
-              <p>You'll probably be using this as a smaller measurement, so be sure to enter measurements with decimals, e.g. .5 instead of 1/2.</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <form class="form-inline" id="ovenTemp">
+                    <div class="form-group">
+                      <label for="temp">Gallons</label>
+                      <input type="text" class="form-control" id="temp" placeholder="350">
+                    </div>
+                    <button type="submit" class="btn btn-default">Convert</button>
+                  </form>
+                </li>
+                <li class="list-group-item"><span class="tempresult"></span></li>
+              </ul>
             </div>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="honeycups">
-                  <div class="form-group">
-                    <label for="honeycups">Cups of Honey</label>
-                    <input type="text" class="form-control" id="honeycups" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="honeyresult"></span></li>
-            </ul>
-          </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Cups of Chocolate Chips to Grams</div>
-            <div class="panel-body">
-              <p>For when the cookies need to come out <em>just</em> right.</p>
-            </div>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="chips">
-                  <div class="form-group">
-                    <label for="chipscups">Cups of Chocolate Chips</label>
-                    <input type="text" class="form-control" id="chipscups" placeholder="2">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="chipsresult"></span></li>
-            </ul>
-          </div>
-          <div class="panel panel-primary">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Convert Oven Temperatures from Fahrenheit to Celsius</div>
-            <div class="panel-body">
-              <p>Ah, a schooltime classic. This'll make sure you never have to remember the formula! You don't have to put anything other than a number.</p>
-            </div>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                <form class="form-inline" id="ovenTemp">
-                  <div class="form-group">
-                    <label for="temp">Gallons</label>
-                    <input type="text" class="form-control" id="temp" placeholder="350">
-                  </div>
-                  <button type="submit" class="btn btn-default">Convert</button>
-                </form>
-              </li>
-              <li class="list-group-item"><span class="tempresult"></span></li>
-            </ul>
           </div>
         </div>
       </div>
