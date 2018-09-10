@@ -1,33 +1,33 @@
 # _Javascript Calculator for Cooking Conversions_
 
-#### _A webpage used to javascript by making a simple calculator that converts commonly used cooking measurements, 9-4-2018_
+#### _A webpage that uses javascript to make a simple calculator that converts commonly used cooking measurements from imperial to metric, 9-4-2018_
 
 #### By _**William Kulha**_
 
 ## Description
 
-_This is just a simple calculator app made to practice javascript via learnhowtoprogram.com._
+_This is just a simple calculator app made to practice javascript and jQuery for learnhowtoprogram.com._
 
 ## Setup/Installation Requirements
 
-* _Download or clone this repo <code>$git clone ______________</code>_
+* _Download or clone this repo <code>$git clone https://github.com/zangiboy/cooking-conversion-calc-app.git</code>_
 * _Navigate to the folder where you saved this repository._
 * _Open index.html with the browser of your choice and enjoy_
 
 
 ## Known Bugs
 
-_If you want to know about bugs, consult an entomologist. This is a simple webpage and knows no bugs._
+_Does not have requirements for field inputs, so if the user inputs anything but a number, NaN is returned._
 
 ## Support and contact details
 
-_Still, if you find any problems with what I've done, please send me an email at kulha.william@gmail.com_
+_If you have any suggestions or questions, shoot me an email at kulha.william@gmail.com_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Javascript_
+_Javascript_\
+_jQuert_\
+_Bootstrap_
 
 ### License
 
